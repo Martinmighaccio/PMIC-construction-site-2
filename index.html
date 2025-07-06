@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PMIC Construction</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>PMIC Construction</h1>
+      <p class="tagline">From Foundation to Finish — Built in the USA 🇺🇸</p>
+      <nav>
+        <a href="#about">About</a> |
+        <a href="#services">Services</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p>PMIC Construction is a full-crew subcontractor based in Cedar City, Utah. We build custom homes from the ground up, including framing, cement, landscaping, finish work, and final cleaning.</p>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>🏠 Custom Home Construction</li>
+        <li>🔨 Framing & Finish Carpentry</li>
+        <li>🧱 Cement & Concrete Work</li>
+        <li>🌳 Landscaping & Outdoor Projects</li>
+        <li>🧰 Handy Work & Repairs</li>
+        <li>🧼 Post-Construction Cleaning</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Project Gallery</h2>
+      <div class="carousel">
+        <div><img src="images/photo1.jpg" alt="Project 1" /></div>
+        <div><img src="images/photo2.jpg" alt="Project 2" /></div>
+        <div><img src="images/photo3.jpg" alt="Project 3" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>📞 <strong>(435) 559-7731</strong></p>
+      <p>📧 <a href="mailto:mighaccio@gmail.com">mighaccio@gmail.com</a></p>
+      <p>🌐 <a href="https://pmicconstruction.com" target="_blank">pmicconstruction.com</a></p>
+      <p>
+        ⭐ <a href="https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID" target="_blank">
+        Leave Us a Google Review</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 PMIC Construction. Built Proudly in the USA 🇺🇸</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+      });
+    });
+  </script>
+</body>
+</html>
